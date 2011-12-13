@@ -31,10 +31,10 @@ PKG_FILES = FileList[
   'examples/**/*',
                     ]
 
-require File.expand_path(File.join('lib', 'roma', 'client', 'client_plugin', 'alist', 'version'),
+require File.expand_path(File.join('lib', 'roma', 'client', 'plugin', 'alist', 'version'),
                          File.dirname(__FILE__))
 
-VER_NUM = Roma::Client::ClientPlugin::AList::VERSION::STRING
+VER_NUM = Roma::Client::Plugin::AList::VERSION::STRING
 
 if VER_NUM =~ /([0-9.]+)$/
   CURRENT_VERSION = $1

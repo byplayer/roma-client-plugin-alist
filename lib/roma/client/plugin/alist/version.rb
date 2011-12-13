@@ -5,7 +5,7 @@
 #
 module Roma #:nodoc:
   module Client #:nodoc:
-    module ClientPlugin
+    module Plugin
       module AList
         # == AList version module
         module VERSION

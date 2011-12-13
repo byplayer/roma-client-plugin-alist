@@ -1,13 +1,13 @@
 require File.expand_path(File.join('..', '..', '..', '..', 'spec_helper'),
                          File.dirname(__FILE__))
 
-describe Roma::Client::ClientPlugin::AList::VERSION do
+describe Roma::Client::Plugin::AList::VERSION do
   context "version string" do
     it do
-      Roma::Client::ClientPlugin::AList::VERSION::STRING.should ==
-        "#{Roma::Client::ClientPlugin::AList::VERSION::MAJOR}." +
-        "#{Roma::Client::ClientPlugin::AList::VERSION::MINOR}." +
-        "#{Roma::Client::ClientPlugin::AList::VERSION::TINY}"
+      Roma::Client::Plugin::AList::VERSION::STRING.should ==
+        "#{Roma::Client::Plugin::AList::VERSION::MAJOR}." +
+        "#{Roma::Client::Plugin::AList::VERSION::MINOR}." +
+        "#{Roma::Client::Plugin::AList::VERSION::TINY}"
     end
   end
 end
