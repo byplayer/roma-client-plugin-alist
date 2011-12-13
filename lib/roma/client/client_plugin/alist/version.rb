@@ -9,7 +9,7 @@ module Roma #:nodoc:
       module AList
         # == AList version module
         module VERSION
-          # mejor version
+          # major version
           MAJOR = 1
 
           # minor
